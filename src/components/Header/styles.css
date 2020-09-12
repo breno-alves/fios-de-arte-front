@@ -1,0 +1,48 @@
+.header {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 140px;
+    background-color: #FDD6B3;
+    position: fixed;
+
+    max-height: 140px;
+    transition: 1s;
+}
+
+.header-container {
+    display:flex;
+    align-items: center;
+    justify-content: flex-start;
+    min-width: 1440px;
+    padding-left:60px;
+}
+
+.logo {
+    width: 90px;
+    height: auto;
+    padding-right:40px; 
+}
+
+.menu {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    
+
+    
+}
+
+.menu li{
+    display: inline-block;
+    margin-left: 20px;
+    margin-right:20px;
+    
+}
+
+.header-open {
+    max-height: 80px !important;
+    height: 80px !important;
+    opacity: 0.5;
+}
